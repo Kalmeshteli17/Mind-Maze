@@ -13,5 +13,9 @@
   "dependencies": {
     "lil-gui": "^0.19.2",
     "three": "^0.158.0"
-  }
+  },
+  "scripts": {
+  "prebuild": "chmod +x node_modules/.bin/vite",
+  "build": "vite build"
+}
 }
